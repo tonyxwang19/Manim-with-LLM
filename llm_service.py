@@ -57,7 +57,7 @@ def generate_manim_code(topic: str, api_key: str = None) -> str:
     Generates Manim code for a given math topic using DeepSeek LLM.
     """
     # Use provided key or fall back to env var
-    key = 'sk-488e8323a08c46cebc5079de77016176' 
+    key = 'YOUR_KEY' 
     # Initialize OpenAI client with DeepSeek base URL
     client = OpenAI(
         api_key=key, 

@@ -8,7 +8,7 @@ st.set_page_config(page_title="Math to Manim Generator", page_icon="📐")
 st.title("📐 Math to Manim Animation Generator")
 st.write("Enter a math topic, and I'll generate a Manim animation for you using DeepSeek!")
 
-api_key = 'sk-488e8323a08c46cebc5079de77016176'
+api_key = 'YOUR_KEY'
 
 # Main input
 topic = st.text_area("What do you want to visualize?", height=100, placeholder="e.g., The Pythagorean Theorem, A rotating 3D cube, The area of a circle...")
